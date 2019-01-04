@@ -1020,7 +1020,7 @@ DownloadResultGroup_auto()
 
     # ------------- assumptions regarding Google's URL parameters ---------------------------------------------------
     local search_type='&tbm=isch'       # search for images
-    local search_language='&hl=en'      # language
+    local search_language='&hl=sv'      # language
     local search_style='&site=imghp'    # result layout style
     local search_match_type='&nfpr=1'   # perform exact string search - does not show most likely match results or suggested search.
 
