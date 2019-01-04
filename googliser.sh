@@ -1022,7 +1022,7 @@ DownloadResultGroup_auto()
     local search_type='&tbm=isch'       # search for images
     local search_language='&hl=sv'      # language
     local search_style='&site=imghp'    # result layout style
-    local search_match_type='&nfpr=1'   # perform exact string search - does not show most likely match results or suggested search.
+    local search_match_type='&nfpr=0'   # perform exact string search - does not show most likely match results or suggested search.
 
     local run_pathfile="$results_run_count_path/$link_index"
     local success_pathfile="$results_success_count_path/$link_index"
